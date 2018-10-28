@@ -1,0 +1,2 @@
+# OrleansInterfaceNetStandardProjectTemplate
+OrleansInterface.NetStandard.ProjectTemplate
