@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Thiago Loureiro",
+    "classifications": [ "Orleans" ],
+    "identity": "OrleansGrainInterface.NetStandard.ProjectTemplate",
+    "name": "Orleans Interface NetStandard Project Template",
+    "shortName": "orleansinterfacedotnet",
+	"tags": 
+	{
+    "language": "C#",
+    "type": "project"
+	},
+	"sourceName": "OrleansGrainInterface",
+  "preferNameDirectory": true,
+  "guids": [],
+  "primaryOutputs": [
+    {
+      "path": "OrleansGrainInterface.csproj"
+    }
+  ],
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
+    }
+  },
+  "defaultName": "Company.Interface",
+  "postActions": [
+    {
+      "condition": "(!skipRestore)",
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore'" }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ]
+}

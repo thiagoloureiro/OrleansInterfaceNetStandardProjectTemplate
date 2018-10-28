@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OrleansInterface.NetStandard.ProjectTemplate</id>
+    <version>1.0.0</version>
+    <authors>Thiago Loureiro</authors>
+    <owners>Thiago Loureiro</owners>
+    <projectUrl>https://github.com/thiagoloureiro/OrleansInterfaceNetStandardProjectTemplate</projectUrl>
+    <licenseUrl>https://github.com/thiagoloureiro/OrleansInterfaceNetStandardProjectTemplate/blob/master/LICENSE</licenseUrl>
+	<iconUrl>https://raw.githubusercontent.com/thiagoloureiro/OrleansSiloNetCoreProjectTemplate/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Orleans Interface .NetStandard Project Template</title>
+    <description>
+Orleans Interface .NET Standard Project Template
+    </description>
+<summary>
+</summary>
+    <releaseNotes>
+Orleans Interface .NET Standard Project Template
+    </releaseNotes>
+    <tags>
+    orleans
+	  silo
+	  silohost
+    grain
+    dotnet-core
+	  console
+    </tags>
+    <language>en-US</language>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+	<dependencies>
+	</dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Thiago Loureiro</Authors>
+    <Company>Thiago Loureiro</Company>
+    <Copyright>Thiago Loureiro</Copyright>
+    <PackageLicenseUrl>https://github.com/thiagoloureiro/OrleansInterfaceNetStandardProjectTemplate/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/thiagoloureiro/OrleansInterfaceNetStandardProjectTemplate</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/thiagoloureiro/OrleansSiloNetCoreProjectTemplate/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/thiagoloureiro/OrleansInterfaceNetStandardProjectTemplate</RepositoryUrl>
+    <PackageReleaseNotes>Orleans Interface .NET Standard Project Template</PackageReleaseNotes>
+    <Description>Orleans Interface .NET Standard Project Template</Description>
+    <PackageTags>orleans, silo, grain, interface dotnetcore</PackageTags>
+    <PackageId>OrleansInterface.NetCore.ProjectTemplate</PackageId>
+    <Product>OrleansInterface.NetCore.ProjectTemplate</Product>
+    <AssemblyName>OrleansGrainClass</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="2.1.2" />
+    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="2.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
